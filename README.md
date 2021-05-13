@@ -11,6 +11,7 @@ git clone https://github.com/electron/electron-quick-start.git
 git init 
 git remote add origin git@github.com:makelove/electron-quick-start.git
 使用Fork 提交代码
-git branch -M main
-git push -u origin main
+
+#git branch -M main
+#git push -u origin main
 ```
