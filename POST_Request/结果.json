@@ -1,0 +1,37 @@
+{
+    "args": {}, 
+    "data": "", 
+    "files": {}, 
+    "form": {
+      "goods_id": "184121859169", 
+      "goods_number": "1", 
+      "group_id": "43271854869", 
+      "page_from": "0", 
+      "refer_page_element": "open_btn", 
+      "refer_page_id": "10014_1618404230081_yyet00inns", 
+      "refer_page_name": "goods_detail", 
+      "refer_page_sn": "10014", 
+      "sku_id": "704101426554", 
+      "source_channel": "0"
+    }, 
+    "headers": {
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", 
+      "Accept-Encoding": "gzip, deflate, br", 
+      "Accept-Language": "zh-CN", 
+      "Cache-Control": "max-age=0", 
+      "Content-Length": "228", 
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8", 
+      "Host": "httpbin.org", 
+      "Origin": "null", 
+      "Sec-Fetch-Dest": "document", 
+      "Sec-Fetch-Mode": "navigate", 
+      "Sec-Fetch-Site": "none", 
+      "Sec-Fetch-User": "?1", 
+      "Upgrade-Insecure-Requests": "1", 
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) electron-quick-start/1.0.0 Chrome/89.0.4389.90 Electron/12.0.2 Safari/537.36", 
+      "X-Amzn-Trace-Id": "Root=1-607d8393-200ffc604622b04259263d37"
+    }, 
+    "json": null, 
+    "origin": "116.24.36.57", 
+    "url": "https://httpbin.org/post"
+  }
