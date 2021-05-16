@@ -2,7 +2,7 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "setProxy/main.js",
+  "main": "global/main.js",
   "scripts": {
     "start": "electron  ."
   },
@@ -24,6 +24,7 @@
     "axios": "^0.21.1",
     "electron-store": "^7.0.3",
     "lowdb": "^1.0.0",
+    "node-fetch": "^2.6.1",
     "puppeteer-core": "^8.0.0",
     "puppeteer-in-electron": "^3.0.3",
     "qs": "^6.10.1"
