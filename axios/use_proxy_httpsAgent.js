@@ -10,8 +10,7 @@ https://github.com/axios/axios/issues/2072
 const HttpsProxyAgent = require("https-proxy-agent")
 var axios = require('axios');
 
-let username = 'xxx'// oxylabs
-let password = 'xxx' //TODO 
+const { username, password } = require('./config')
 let country = 'MY'
 
 let proxy

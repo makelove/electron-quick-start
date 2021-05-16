@@ -9,8 +9,7 @@ https://github.com/axios/axios/issues/2072
 
 const axios = require('axios');
 
-let username = 'xxx'// oxylabs
-let password = 'xxx' //TODO 
+const { username, password } = require('./config')
 let country = 'MY'
 
 let proxy
@@ -27,8 +26,9 @@ proxy = { // oxylabs
 console.log(proxy);
 // let ipUrl='https://api.ipify.org?format=json'
 // let ipUrl = 'http://httpbin.org/get?answer=42'
-// let ipUrl = 'https://ipinfo.io'
-let ipUrl = 'https://www.lazada.com.my/catalog/?_keyori=ss&ajax=true&from=input&page=1&q=bag'
+let ipUrl = 'https://ipinfo.io' //可以
+// let ipUrl = 'https://www.lazada.com.my/catalog/?_keyori=ss&ajax=true&from=input&page=1&q=bag'
+//(node:12640) UnhandledPromiseRejectionWarning: Error: write EPROTO 4486909376:error:1408F10B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:332:
 
 async function useP() {
     var res = await axios.get(ipUrl, {

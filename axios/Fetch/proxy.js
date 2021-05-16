@@ -7,10 +7,10 @@ Node-Fetch设置http/https代理发送请求示例
 https://www.jianshu.com/p/63d70a93a401
 */
 
+const { username, password } = require('./../config')
 const fetch = require("node-fetch");
 const HttpsProxyAgent = require('https-proxy-agent');
-let username = 'xxx'// oxylabs
-let password = 'xxx' //TODO 
+
 let country = 'MY'
 proxy = { // oxylabs
     host: 'pr.oxylabs.io',
