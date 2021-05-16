@@ -2,7 +2,7 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "global/main.js",
+  "main": "dark-mode/main.js",
   "scripts": {
     "start": "electron  ."
   },
